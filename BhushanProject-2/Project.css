@@ -1,0 +1,246 @@
+.MainBlock{
+    /*border: 1px solid;
+    width: 1300px;
+    height: 550px;*/
+   /* overflow: auto;*/
+    margin: 10px;
+    padding: 10px;
+}
+#HeaderName{
+   /* color: aqua;*/
+   background-image: linear-gradient(to left,violet,indigo,red,orange,yellow,green,blue);
+   -webkit-background-clip: text;
+   -moz-background-clip: text;
+   background-clip: text;
+   color: transparent;
+    padding-left: 30px;
+}
+#HeaderPara{
+    float: left;
+    padding-left: 30px;
+   
+}
+.ImgBlock{
+   
+    float: right;
+    width: 500px;
+    height: 120px; 
+}
+.UsrBtn{
+    clear: both;
+    background-color: red;
+    height: 40px;
+    float: left;
+    color: white;
+    border-radius: 10px;
+   
+
+}
+.abc{
+    clear: both; 
+    
+    
+}
+.MobileImg{
+    float: left;
+    
+}
+.Left{
+    position: relative;
+    right: 20px;
+    background-color:#20b2aa;
+    float: right;
+    width: 650px;
+    height: 513px;
+    text-align: center;
+    color: white;
+    
+   
+}
+#TextPos{
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    font-weight: lighter;
+}
+#CalBox{
+    border: 1px solid;
+    width: 200px;
+    height: 30px;
+    background-color: white;
+    color: black;
+    position: absolute;
+    top: 230px;
+    left: 250px;
+    font-size: x-large;
+    clear: both;
+    
+    
+}
+#ParText{
+    position: absolute;
+    top:280px;
+    left:150px;
+    clear: both;
+
+    
+}
+#ThdBck,#para1{
+  /* color: rgba(0, 255, 170, 0.767);*/
+  background-image: linear-gradient(to left,violet,indigo,red,orange,rgb(7, 99, 160),green,blue);
+   -webkit-background-clip: text;
+   -moz-background-clip: text;
+   background-clip: text;
+   color: transparent;
+
+   position: relative;
+   left: 400px;
+   top: 60px;
+  
+   
+}
+#para1{
+    color: black;
+    color: brown;
+    clear: both;
+    
+}
+.LaptopImg{
+    position: relative;
+    top: 150px;
+   /* width: 1100px;*/
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./image/pexels-pixabay-257897.jpg");
+    clear: both;
+    
+}
+#LaptopImgID,#Para2{
+    position: absolute;
+    top: 40px;
+    left: 910px;
+    /*color: aqua;*/
+    background-image: linear-gradient(to left,violet,indigo,red,orange,rgb(209, 24, 194),green,blue);
+   -webkit-background-clip: text;
+   -moz-background-clip: text;
+   background-clip: text;
+   color: transparent;
+    
+}
+#Para2{
+    top: 180px;
+    color: black;
+    left: 920px;
+   clear: both;
+}
+.box{
+        clear: both;
+        position: absolute;
+        top: 700px;
+        width: 100%;
+        height: 600px;
+        background-image: linear-gradient(to  right,rgba(82, 6, 6, 0),rgb(7, 34, 109));
+       /* background-image: linear-gradient(to left,blue,yellow);*/
+       
+}
+#BckColorId{
+    
+    position: absolute;
+    left: 600px;
+    top: 100px;
+    color: white;
+    clear: both;
+}
+.UsrBtn2{
+    clear: both;
+    background-color: red;
+    width: 150px;
+    height: 40px;
+    position: absolute;
+    top: 280px;
+    color: white;
+    clear: both;
+    
+}
+.FloatBox{
+    
+    width: 300px;
+    height: 250px;
+    position: relative;
+    margin: 10px;
+    clear: both;
+}
+#Box1{
+    background-color: teal;
+    position: absolute;
+    left: 200px;;
+    z-index: 1;
+    top: 120px;
+    clear: both;
+}
+#Box2{
+    border-radius: 10px;
+    background-color: turquoise;
+    position: absolute;
+    left: 180px;
+    top: 130px;
+    z-index: 2;
+  
+    
+}
+#Box3{
+    position: absolute;
+    z-index: 33;
+    border-radius: 10px;
+    opacity: 0.2;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./image/Cash.jpg");
+    clear: both;
+
+}
+.CashManagment{
+    position: relative;
+    top: 500px;
+    left: 290px;
+    
+}
+#headerLast{
+    text-align: center;
+   /* color: teal;*/
+   background-image: linear-gradient(to left,violet,indigo,red,orange,yellow,green,blue);
+   -webkit-background-clip: text;
+   -moz-background-clip: text;
+   background-clip: text;
+   color: transparent;
+}
+#Box12{
+    background-color:green;
+    position: absolute;
+    left: 20px;;
+    z-index: 1;
+    top: 730px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    clear: both;
+
+}
+#Box21{
+    width: 250px;
+    border-radius: 50%;
+    background-color: teal;
+    position: absolute;
+    left: 60px;
+    top: 700px;
+    z-index: 2;
+}
+#Box22{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    background-repeat: no-repeat;
+   /* opacity: 0.7;*/
+    background-image: url("./image/images.jpg");
+}
