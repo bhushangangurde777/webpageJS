@@ -1,0 +1,61 @@
+
+/*Header Section*/
+    .mainHeader {
+        text-align: center;
+        color: grey;
+        font-size: x-large;
+    }
+    .subClass {
+        text-align: center;
+        color:#ccc;
+    }
+/*End Section*/
+/*Container Box Section*/
+    .mainBox {
+        width: 370px;
+        height: 300px;
+        box-shadow: 5px 10px 20px #ccc;
+        border-radius: 5px;
+    }
+    .box1 {
+        border-top: 2px solid red;
+        position: absolute;
+        left: 40%;
+        margin-top: 2%
+        
+    }
+    .box2 {
+        border-top: 2px solid rgb(0, 128, 100);
+        position: absolute;
+        left: 10%;
+        top: 55%;
+    }
+    .box3 {
+        border-top: 2px solid blue;
+        position: absolute;
+        left: 70%;
+        top: 55%;
+    }
+    .box4 {
+        border-top: 2px solid orange;
+        position: absolute;
+        left: 40%;
+        top: 83%;
+    }
+    .subBox {
+        padding: 15px 40px;
+    }
+    .subBox h2{
+        color: grey;
+    }
+    .subBox p {
+        color: #ccc;
+    }
+    .imgBlock {
+        position: absolute;
+        top: 60%;
+        left: 70%
+    }
+
+/*End Box Section*/
+
